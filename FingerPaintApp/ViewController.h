@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PaintProtocol.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<PaintProtocol>
+
+@property (strong, nonatomic) UIBezierPath* path;
+@property (strong, nonatomic) NSArray* paths;
+@property (strong, nonatomic) NSArray* colours;
 
 
 @end

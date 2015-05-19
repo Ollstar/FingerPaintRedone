@@ -14,6 +14,7 @@
 		A7D05A801B0B859A00BE4F65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D05A7F1B0B859A00BE4F65 /* Images.xcassets */; };
 		A7D05A831B0B859A00BE4F65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7D05A811B0B859A00BE4F65 /* LaunchScreen.xib */; };
 		A7D05A8F1B0B859A00BE4F65 /* FingerPaintAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D05A8E1B0B859A00BE4F65 /* FingerPaintAppTests.m */; };
+		A7D05A9A1B0B87A800BE4F65 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D05A991B0B87A800BE4F65 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		A7D05A881B0B859A00BE4F65 /* FingerPaintAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D05A8D1B0B859A00BE4F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7D05A8E1B0B859A00BE4F65 /* FingerPaintAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintAppTests.m; sourceTree = "<group>"; };
+		A7D05A981B0B87A800BE4F65 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View.h; path = ../View.h; sourceTree = "<group>"; };
+		A7D05A991B0B87A800BE4F65 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = View.m; path = ../View.m; sourceTree = "<group>"; };
+		A7D05A9B1B0B880800BE4F65 /* PaintProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintProtocol.h; path = ../PaintProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,9 @@
 				A7D05A771B0B859A00BE4F65 /* AppDelegate.m */,
 				A7D05A791B0B859A00BE4F65 /* ViewController.h */,
 				A7D05A7A1B0B859A00BE4F65 /* ViewController.m */,
+				A7D05A9B1B0B880800BE4F65 /* PaintProtocol.h */,
+				A7D05A981B0B87A800BE4F65 /* View.h */,
+				A7D05A991B0B87A800BE4F65 /* View.m */,
 				A7D05A7C1B0B859A00BE4F65 /* Main.storyboard */,
 				A7D05A7F1B0B859A00BE4F65 /* Images.xcassets */,
 				A7D05A811B0B859A00BE4F65 /* LaunchScreen.xib */,
@@ -219,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D05A9A1B0B87A800BE4F65 /* View.m in Sources */,
 				A7D05A7B1B0B859A00BE4F65 /* ViewController.m in Sources */,
 				A7D05A781B0B859A00BE4F65 /* AppDelegate.m in Sources */,
 				A7D05A751B0B859A00BE4F65 /* main.m in Sources */,
